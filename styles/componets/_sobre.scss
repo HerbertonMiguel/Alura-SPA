@@ -1,0 +1,38 @@
+@import '../abstract/variaveis';
+
+#sobre {
+  margin: 40px;
+
+  h3 {
+    text-align: center;
+    font-size: $tamamho-do-texto /1.2;
+    font-weight: 300;
+    text-align: center;
+    margin: 1em;
+  }
+
+  .sobre-imagem {
+    padding-bottom: 2px;
+
+    img {
+      display: flex;
+      margin: 0 auto;
+      max-width: 40%;
+    }
+  }
+
+  h4 {
+    font-size: $tamamho-do-texto / 2.5;
+    font-weight: 300;
+    text-align: center;
+    margin: 1em;
+  }
+
+  p {
+    font-size: $tamamho-do-texto / 3;
+    font-weight: 300;
+    color: $cor-primaria;
+    line-height: 1.5em;
+    text-align: center;
+  }
+}
